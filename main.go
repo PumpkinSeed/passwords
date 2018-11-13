@@ -22,8 +22,8 @@ import (
 	"github.com/urfave/cli"
 )
 
-// @TODO add support for backup to Google Drive
-// @TODO add support for restore from Google Drive
+// @TODO add support for backup to a cloud
+// @TODO add support for restore from a cloud
 
 // Flags
 var (
@@ -222,6 +222,7 @@ func app() {
 			Usage: "Do a backup and save it to Google Drive",
 			//Flags
 			Action: func(c *cli.Context) error {
+				log.Fatal("Not supported yet")
 				return nil
 			},
 		},
@@ -230,6 +231,7 @@ func app() {
 			Usage: "Get the file from Google Drive and restore it to the specified location",
 			//Flags
 			Action: func(c *cli.Context) error {
+				log.Fatal("Not supported yet")
 				return nil
 			},
 		},
