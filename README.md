@@ -32,7 +32,7 @@ passwords generate -key facebook -passphrase s3cur3pw -insecure
 ```
 If the key already exists it's ask for overwrite
 
---
+---
 
 Get the password from the secure file for key `facebook` and copy it to clipboard
 
@@ -45,10 +45,15 @@ Get the password from the secure file for key `facebook` and copy it to clipboar
 ```
 passwords get -key facebook -passphrase s3cur3pw -insecure
 ```
---
+---
 
 List the existed keys with the last update date
 
 ```
 passwords list -passphrase s3cur3pw
 ```
+
+## TODO
+
+- add support for backup to a cloud
+- add support for restore from a cloud
